@@ -16,7 +16,7 @@ export const theme = extendTheme({
         "Highlight": "#FFBA08"
     }, 
     fonts: {
-        heading: 'Poppins',
-        body: 'Poppins'
+        heading: 'Poppins' || "Barlow",
+        body: 'Poppins' || "Barlow"
     }
 })
